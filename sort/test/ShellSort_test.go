@@ -8,6 +8,7 @@ import (
 	"fmt"
 )
 
+//todo:修改测试 减少代码重复
 func TestShellSort(t *testing.T)  {
 	K:=rand.Intn(100)
 	fmt.Println(K)
