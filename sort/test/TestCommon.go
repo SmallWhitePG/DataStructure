@@ -16,8 +16,10 @@ func getTestResult(sortFunc func(arr []int)[]int,sortFuncName string)  {
 	for i:=0;i<len(testArr);i++{
 		testArr[i]=rand.Intn(100)
 	}
+	
+	sortResult:=sortFunc(testArr)
 	log.Printf("testArr:%v",testArr)
-	log.Printf("testArr after sort:%v",sortFunc(testArr))
+	log.Printf("testArr after sort:%v",sortResult)
 	for i:=1;i<len(testArr);i++{
 		if testArr[i-1]>testArr[i] {
 			log.Printf("%v Error!!!",sortFuncName)
