@@ -2,8 +2,8 @@ package test
 
 import (
 	"math/rand"
-	"log"
 	"time"
+	"fmt"
 )
 
 func init()  {
@@ -16,15 +16,17 @@ func getTestResult(sortFunc func(arr []int)[]int,sortFuncName string)  {
 	for i:=0;i<len(testArr);i++{
 		testArr[i]=rand.Intn(100)
 	}
-	
+
+	fmt.Printf("testArr:%v\n",testArr)
+
 	sortResult:=sortFunc(testArr)
-	log.Printf("testArr:%v",testArr)
-	log.Printf("testArr after sort:%v",sortResult)
-	for i:=1;i<len(testArr);i++{
-		if testArr[i-1]>testArr[i] {
-			log.Printf("%v Error!!!",sortFuncName)
+
+	fmt.Printf("testArr after sort:%v\n",sortResult)
+	for i:=1;i<len(sortResult);i++{
+		if sortResult[i-1]>sortResult[i] {
+			fmt.Printf("%v Error!!!\n\n",sortFuncName)
 			return
 		}
 	}
-	log.Printf("%v Right Sort",sortFuncName)
+	fmt.Printf("%v Right Sort\n\n",sortFuncName)
 }

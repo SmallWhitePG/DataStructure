@@ -4,7 +4,7 @@ func InsertionSort(arr []int)[]int  {
 	for i:=range arr{
 		preIndex:=i-1
 		current:=arr[i]
-		for preIndex>0&&arr[preIndex]>current {
+		for preIndex>=00&&arr[preIndex]>current {
 			arr[preIndex+1]=arr[preIndex]
 			preIndex-=1
 		}
