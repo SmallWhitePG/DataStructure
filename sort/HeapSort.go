@@ -1,5 +1,8 @@
 package sort
 
+/*
+从最后一个数开始构造大顶堆 每次都找出最大的数放在数组最后面
+*/
 func HeapSort(arr []int)[]int  {
 	for i:=len(arr)-1;i>=0;i-- {
 		buildBigTopHeap(arr,i)

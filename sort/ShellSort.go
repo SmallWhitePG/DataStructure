@@ -1,5 +1,11 @@
 package sort
 
+/*
+最开始gap设为长度的一半
+然后对每相隔gap的数进行插入排序
+gap除以2
+直到gap为0就停止排序
+*/
 func ShellSort(arr []int) []int {
 	length := len(arr)
 	gap := int(length/2) //gap从数组长度的1/2开始

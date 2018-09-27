@@ -1,5 +1,11 @@
 package sort
 
+/*
+把数组分为两部分对两部分进行分别排序
+再分别对两部分
+每部分分两组排序
+最后合并
+*/
 func MergeSort(arr []int)[]int  {
 	length:=len(arr)
 	if length<2 {

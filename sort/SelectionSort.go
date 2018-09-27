@@ -1,5 +1,8 @@
 package sort
 
+/*
+每轮选择出最小的数出来
+*/
 func SelectionSort(arr []int) []int {
 	length := len(arr)
 	for i := 0; i < length-1; i++ {

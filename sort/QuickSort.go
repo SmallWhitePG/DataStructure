@@ -1,5 +1,9 @@
 package sort
 
+/*
+以第一个数为基准对数组进行划分 小的在右边 大的在左边
+然后把该基准数两边 当成两个数组以此迭代进行排序
+*/
 func QuickSort(arr []int) []int {
 	_quickSort(arr, 0, len(arr)-1)
 	return arr

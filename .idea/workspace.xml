@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba5310a-92d9-4fd6-ab13-e86d17329cab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sort/HeapSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/QuickSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/test/HeapSort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/test/QuickSort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/CountingSort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/BubbleSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/BubbleSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/HeapSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/HeapSort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort/InsertionSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/InsertionSort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/test/TestCommon.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/test/TestCommon.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/MergeSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/MergeSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/QuickSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/QuickSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/SelectionSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/SelectionSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/ShellSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/ShellSort.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,20 +28,17 @@
       <file leaf-file-name="ShellSort.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/ShellSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="95">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSort_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/test/BubbleSort_test.go">
+      <file leaf-file-name="InsertionSort.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/InsertionSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="10" />
-              <folding>
-                <element signature="e#14#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -47,17 +46,17 @@
       <file leaf-file-name="MergeSort.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/MergeSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertionSort.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sort/InsertionSort.go">
+      <file leaf-file-name="BubbleSort.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/BubbleSort.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -65,20 +64,8 @@
       <file leaf-file-name="QuickSort.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/QuickSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/test/QuickSort_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#14#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -86,7 +73,7 @@
       <file leaf-file-name="TestCommon.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/test/TestCommon.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="399">
               <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
@@ -95,7 +82,7 @@
       <file leaf-file-name="log.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../src/log/log.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="5453">
               <caret line="294" column="10" selection-start-line="294" selection-start-column="10" selection-end-line="294" selection-end-column="10" />
             </state>
           </provider>
@@ -104,17 +91,26 @@
       <file leaf-file-name="HeapSort.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/HeapSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="57">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapSort_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/test/HeapSort_test.go">
+      <file leaf-file-name="CountingSort.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sort/CountingSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="456">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectionSort.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/SelectionSort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -139,18 +135,19 @@
         <option value="$PROJECT_DIR$/sort/test/InsertionSort_test.go" />
         <option value="$PROJECT_DIR$/sort/test/BubbleSort_test.go" />
         <option value="$PROJECT_DIR$/sort/test/ShellSort_test.go" />
-        <option value="$PROJECT_DIR$/sort/ShellSort.go" />
-        <option value="$PROJECT_DIR$/sort/BubbleSort.go" />
-        <option value="$PROJECT_DIR$/sort/SelectionSort.go" />
         <option value="$PROJECT_DIR$/sort/test/MergeSort_test.go" />
-        <option value="$PROJECT_DIR$/sort/MergeSort.go" />
         <option value="$PROJECT_DIR$/sort/test/QuickSort_test.go" />
         <option value="$PROJECT_DIR$/main/main.go" />
-        <option value="$PROJECT_DIR$/sort/QuickSort.go" />
         <option value="$PROJECT_DIR$/sort/test/HeapSort_test.go" />
-        <option value="$PROJECT_DIR$/sort/HeapSort.go" />
         <option value="$PROJECT_DIR$/sort/test/TestCommon.go" />
+        <option value="$PROJECT_DIR$/sort/BubbleSort.go" />
+        <option value="$PROJECT_DIR$/sort/SelectionSort.go" />
+        <option value="$PROJECT_DIR$/sort/QuickSort.go" />
         <option value="$PROJECT_DIR$/sort/InsertionSort.go" />
+        <option value="$PROJECT_DIR$/sort/ShellSort.go" />
+        <option value="$PROJECT_DIR$/sort/MergeSort.go" />
+        <option value="$PROJECT_DIR$/sort/HeapSort.go" />
+        <option value="$PROJECT_DIR$/sort/CountingSort.go" />
       </list>
     </option>
   </component>
@@ -164,8 +161,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
-    <option name="y" value="7" />
+    <option name="x" value="447" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
   </component>
@@ -177,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +203,7 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github.com/goinaction/code/chapter6/listing20" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
@@ -323,16 +319,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="6" width="1120" height="784" extended-state="0" />
+    <frame x="358" y="0" width="1120" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21971066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21971066" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45356038" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45356038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -355,14 +351,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sort/QuickSort.go</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -370,6 +358,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5453">
+          <caret line="294" column="10" selection-start-line="294" selection-start-column="10" selection-end-line="294" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/HeapSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/test/HeapSort_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/InsertionSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sort/BubbleSort.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -398,9 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,9 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,43 +611,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/BubbleSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/SelectionSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/ShellSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/MergeSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/test/BubbleSort_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="76">
           <caret line="7" selection-start-line="7" selection-end-line="10" />
           <folding>
             <element signature="e#14#57#0" expanded="true" />
@@ -659,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/test/QuickSort_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="133">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#14#57#0" expanded="true" />
@@ -667,23 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/QuickSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.go" />
     <entry file="file://$PROJECT_DIR$/sort/test/HeapSort_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -691,31 +642,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/HeapSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../src/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="5453">
           <caret line="294" column="10" selection-start-line="294" selection-start-column="10" selection-end-line="294" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/test/TestCommon.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="399">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/BubbleSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/InsertionSort.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/QuickSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/SelectionSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/ShellSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/MergeSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/HeapSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/CountingSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>

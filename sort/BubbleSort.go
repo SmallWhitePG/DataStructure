@@ -1,5 +1,8 @@
 package sort
 
+/*
+每次两两交换 把最大的数放到最后面
+*/
 func BubbleSort(arr []int)[]int {
 	length := len(arr)
 	for i := 0; i < length; i++ {
